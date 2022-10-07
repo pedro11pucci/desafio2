@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@300;500&display=swap');
+
+* {
+  font-family: sans-serif;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #E6E6E6;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(247, 182, 16);
+  
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 7px;
+  padding-bottom: 19px;
+  color: aliceblue;
+  font-size: 50px;
+}
+
+span {
+  color: black;
+}
+
+header ul {
+  list-style: none;
+  padding-bottom: 21px;
+  color: aliceblue;
+}
+
+header ul li {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+}
+
+main {
+  display: flex;
+  padding-top: 16px;
+}
+
+section {
+  position: relative;
+}
+
+#posts {
+  width: 680px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+#side-content {
+  width: 250px;
+  margin-right: auto;
+}
+
+article {
+  background-color: white;
+}
+
+#posts article {
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+#posts article h2 {
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(243, 176, 8);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 3px;
+}
+
+#posts article #date {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#posts article img {
+  margin-top: 21px;
+}
+
+#posts article p {
+  font-family: 'Roboto', sans-serif;
+  width: 640px;
+  margin-left: 20px;
+}
+
+#posts article #read-more {
+  color: rgb(243, 176, 8);
+  padding-bottom: 24px;
+}
+
+#side-content #side-content-box {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  padding-top: 7px;
+  margin-bottom: 22px;
+}
+
+#side-content #side-content-box h2 {
+  background-color: #d3cece;
+  padding: 7px;
+  margin-left: 9px;
+  margin-right: 9px;
+  
+}
+
+#side-content p {
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 16px;
+  padding-top: 7px;
+}
+
+#side-content #side-content-box hr {
+  width: 94%
+}
+
+#side-content #side-content-box ul {
+  padding-bottom: 10px;
+}
+
+#side-content #side-content-box ul li {
+  margin-left: 10px;
+  color: rgb(243, 176, 8);
+}
+
+h3 {
+  width: 921px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #c2bebe;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
